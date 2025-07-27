@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abdullah Portfolio</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <script defer src="./javaScript/script.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo"><span>A</span>BDULL<span>A</span>H</div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <button id="toggle-dark" aria-label="Toggle Dark Mode">
+            <i id="dark-icon" class="fa-solid fa-moon"></i>
+          </button>
+        </ul>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero-text">
+          <h2>Hello, I'm <span>Abdullah</span></h2>
+          <p>Frontend Developer</p>
+          <a href="#projects" class="btn">See My Work</a>
+        </div>
+        <div class="hero-image">
+          <img src="./images/me.jpg" alt="Abdullah Profile" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about container">
+      <h2>About Me</h2>
+      <p>
+        Front-End Developer with a strong understanding of HTML5, CSS3, and
+        Tailwind CSS, and a basic knowledge of JavaScript and React. Recently
+        completed a graduation project aimed at improving and unifying user
+        interfaces using a modern, clean design tailored for educational
+        platforms. Shows a strong interest in UI/UX design, responsive layouts,
+        and consistency across web pages. Committed to continuous learning and
+        eager to apply front-end skills in real-world environments that value
+        clarity, organization, and user-focused experiences.
+      </p>
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>Communication and Collaboration</li>
+        <li>HTML5 & CSS3</li>
+        <li>Tailwind CSS</li>
+        <li>Responsive Web Design</li>
+        <li>JavaScript</li>
+        <li>Basic React</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="projects container">
+      <h2>My Projects</h2>
+      <div class="project-list">
+        <div class="project">
+          <img src="./images/Al-Rayan.png" alt="Project 1" />
+          <h3>Graduation Project – Front-End Developer</h3>
+          <p>
+            <span>
+              • Worked on designing and improving the front-end interface of a
+              student- teacher web platform.
+            </span>
+            <br />
+            <span
+              >• Focused on creating a unified, modern, and responsive UI using
+              HTML5, CSS3, and Tailwind CSS.</span
+            >
+            <br />
+            <span
+              >• Ensured consistency with the university’s identity and enhanced
+              the user experience for both students and instructors.</span
+            >
+            <br />
+            <span
+              >• Collaborated in planning layout structure and improving visual
+              hierarchy based on UI/UX principles.</span
+            >
+          </p>
+        </div>
+        <div class="project">
+          <img src="./images/travel.png" alt="Project 2" />
+          <h3>WORLD WIDE Travel Website</h3>
+          <p>
+            <span>
+              • A front-end travel website project named WORLD WIDE, offering an
+              engaging experience for browsing and booking.
+            </span>
+            <br />
+            <span
+              >• Aims to simplify trip reservations and explore destinations,
+              with well-structured and user-friendly content.</span
+            >
+            <br />
+            <span
+              >• Includes sections such as booking, packages, services, gallery,
+              and contact with the support team.</span
+            >
+            <br />
+            <span
+              >• Built using HTML and CSS, and utilizes Font Awesome for
+              interactive icons.</span
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h2>Contact Me</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Abdullah. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://wa.me/+967778476752" target="_blank">WhatsApp</a>
+        <a
+          href="https://www.linkedin.com/in/abdullah-ba-hashwan-35a983360/"
+          target="_blank"
+          >LinkedIn</a
+        >
+        <a href="https://github.com/bingazy2022" target="_blank">GitHub</a>
+      </div>
+    </footer>
+  </body>
+</html>
