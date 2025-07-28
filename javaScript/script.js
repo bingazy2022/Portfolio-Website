@@ -59,3 +59,11 @@ toggleBtn.addEventListener("click", () => {
     localStorage.setItem("theme", "light");
   }
 });
+
+// Toggle Menu on small screens
+const menuToggle = document.getElementById("menu-toggle");
+const navLinks = document.querySelector(".nav-links");
+
+menuToggle.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+});
